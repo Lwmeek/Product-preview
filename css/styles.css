@@ -102,3 +102,36 @@ p {
     cursor: pointer;
     background:  hsl(159, 37%, 23%);
 }
+
+/* Screen sizes */
+
+@media screen and (min-width: 860px){
+    .container {
+        max-width: 650px;
+        display: flex;
+        max-height: 700px;
+    }
+    .container-content {
+        margin: 0 auto;
+        padding: 4rem 0 0;
+    }
+    picture {
+        flex-basis: 50%;
+    }
+    .img {
+        height: 100%;
+    }
+    h1 {
+        max-width: 11ch;
+    }
+    h2 {
+        margin-bottom: 2rem;
+    }
+    p {
+        font-size: 1.4rem;
+        max-width: 25ch;
+    }
+    .price {
+        margin-bottom: 3rem;
+    }
+}

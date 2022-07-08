@@ -16,7 +16,11 @@
 	</head>
 	<body>
         <main class="container">
-            <img class="img" src="images/image-product-mobile.jpg" alt="">
+                <picture>
+                    <source media="(min-width: 860px)" srcset="images/image-product-desktop.jpg">
+                    <source media="(max-width: 859px)" srcset="images/image-product-mobile.jpg">
+                    <img class="img" src="images/image-product-desktop.jpg" alt="">
+                </picture>
             <div class="container-content">
              <h2>PERFUME</h2>
                 <div class="header">
